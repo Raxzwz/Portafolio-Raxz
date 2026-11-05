@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Raxzwz | Desarrollador de plugins Minecraft y administrador de servidores</title>
+  <meta name="description" content="Desarrollador Java de plugins para Spigot, Paper y Purpur. Owner y developer en MineNight, VelixMC, OnixMC, NixerMC y CocoMC; Co-Founder en ArkenCraft y Manager/Dev en ClownMC.">
+  <meta name="theme-color" content="#0a0a0d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Raxzwz | Plugins de Minecraft para servidores reales">
+  <meta property="og:description" content="Plugins para Spigot, Paper y Purpur. Código limpio y servidores que rinden.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip" href="#main">Saltar al contenido</a>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav" id="nav">
+    <a class="brand" href="#top" aria-label="Raxzwz, inicio">
+      <img src="assets/avatar.png" alt="" width="28" height="28" class="brand-img" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'brand-fallback',textContent:'R'}))">
+      <span>Raxzwz<i>.</i></span>
+    </a>
+    <button class="burger" id="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a href="#trayectoria">Trayectoria</a>
+      <a href="#plugins">Plugins</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#stack">Stack</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contacto" class="btn btn-sm">Contacto</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Desarrollador Java · Minecraft</p>
+        <h1>Plugins hechos para <em>servidores reales.</em></h1>
+        <p class="lead">Desarrollo plugins para Spigot, Paper y Purpur y he dirigido redes de Minecraft desde adentro como owner, manager y developer. Código limpio y servidores que rinden.</p>
+        <div class="cta">
+          <a class="btn" href="#plugins">Ver plugins</a>
+          <a class="btn btn-ghost" href="#trayectoria">Mi trayectoria</a>
+        </div>
+        <dl class="stats">
+          <div><dt>7</dt><dd>servidores dirigidos o desarrollados</dd></div>
+          <div><dt>1.13 – 1.21+</dt><dd>versiones soportadas</dd></div>
+          <div><dt>Java</dt><dd>Spigot, Paper y Purpur</dd></div>
+        </dl>
+      </div>
+
+      <div class="term reveal" aria-label="Ejemplo de consola">
+        <div class="term-bar"><span></span><span></span><span></span><b>raxzwz / workspace</b><em>EJEMPLO</em></div>
+        <pre><code><span class="p">$</span> plugins --list
+<span class="ok">●</span> RaxzStaff     Staff Mode · 1.13+
+<span class="ok">●</span> RaxzUpdater   Modrinth · 1.21+
+<span class="p">$</span> /staff
+<span class="a">→</span> Modo staff activado
+<span class="p">$</span> /rup
+<span class="a">→</span> Plugins al día<span class="cursor"></span></code></pre>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Sobre mí</p>
+        <h2>Todo lo que un servidor necesita. Nada de lo que no.</h2>
+        <p>Soy Raxzwz: programo plugins en Java y administro servidores de Minecraft. Cada herramienta se hace pensando en quien la usa: staff, jugadores y dueños.</p>
+      </header>
+      <div class="grid three">
+        <article class="card reveal"><h3>Desarrollo</h3><p>Plugins para Spigot, Paper y Purpur, con mensajes, menús y opciones configurables.</p></article>
+        <article class="card reveal"><h3>Administración</h3><p>Dirección de equipos y comunidades desde adentro, como owner, manager y developer.</p></article>
+        <article class="card reveal"><h3>Rendimiento</h3><p>Código ligero y ajustes del servidor para mantener un buen TPS con jugadores conectados.</p></article>
+      </div>
+    </section>
+
+    <!-- TRAYECTORIA -->
+    <section id="trayectoria" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">01 — Trayectoria</p>
+        <h2>Servidores donde he trabajado.</h2>
+        <p>Proyectos de Minecraft Java donde fui dueño, co-owner, co-fundador, manager o desarrollador. Toca uno para entrar a su Discord.</p>
+      </header>
+
+      <div class="grid servers">
+        <article class="card server reveal">
+          <div class="logo" data-logo="minenight" data-initial="M"></div>
+          <h3>MineNight</h3>
+          <span class="tag">Owner</span>
+          <p>Dirección del proyecto, equipo y desarrollo.</p>
+        </article>
+
+        <a class="card server reveal" href="https://discord.gg/4f2UpTBsS5" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="clownmc" data-initial="C"></div>
+          <h3>ClownMC</h3>
+          <span class="tag">Manager &amp; Dev</span>
+          <p>Gestión del servidor y desarrollo de plugins y sistemas.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+
+        <a class="card server reveal" href="https://discord.gg/xvERmsm4Gh" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="velixmc" data-initial="V"></div>
+          <h3>VelixMC</h3>
+          <span class="tag">Owner &amp; Dev</span>
+          <p>Red competitiva enfocada en rendimiento y sistemas personalizados.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+
+        <a class="card server reveal" href="https://discord.gg/59GSSEeVwJ" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="onixmc" data-initial="O"></div>
+          <h3>OnixMC</h3>
+          <span class="tag">Owner &amp; Dev</span>
+          <p>Servidor optimizado con modalidades de juego a medida.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+
+        <a class="card server reveal" href="https://discord.gg/kyqG47B6MR" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="nixermc" data-initial="N"></div>
+          <h3>NixerMC</h3>
+          <span class="tag">Owner &amp; Dev</span>
+          <p>Gestión de comunidad y desarrollo de mecánicas únicas.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+
+        <a class="card server reveal" href="https://discord.gg/h3jmdBpeV2" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="cocomc" data-initial="C"></div>
+          <h3>CocoMC</h3>
+          <span class="tag">Co-Owner &amp; Dev</span>
+          <p>Administración general e implementación de plugins core.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+
+        <a class="card server reveal" href="https://discord.gg/2BVssGahpQ" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="arkencraft" data-initial="A"></div>
+          <h3>ArkenCraft</h3>
+          <span class="tag">Co-Founder</span>
+          <p>Co-fundación del proyecto, dirección y desarrollo.</p>
+          <small>Unirse al Discord ↗</small>
+        </a>
+      </div>
+    </section>
+
+    <!-- PLUGINS -->
+    <section id="plugins" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">02 — Plugins</p>
+        <h2>Herramientas para administrar mejor.</h2>
+        <p>Plugins creados para facilitar la administración y cuidar el rendimiento del servidor.</p>
+      </header>
+
+      <div class="grid two">
+        <article class="card plugin reveal">
+          <span class="tag tag-mono">Spigot / Paper / Purpur 1.13+</span>
+          <h3>RaxzStaff</h3>
+          <p>Staff Mode ligero para que los moderadores trabajen rápido sin romper su inventario.</p>
+          <ul>
+            <li>Guarda armadura, inventario y ubicación al entrar</li>
+            <li>Menú GUI con herramientas de moderación</li>
+            <li>Inspecciona inventarios y congela jugadores sospechosos</li>
+            <li>Evita drops, romper bloques e interacciones en modo staff</li>
+            <li>Mensajes y menús totalmente configurables</li>
+            <li>Comando <code>/staff</code> (alias <code>/mod</code>, <code>/h</code>)</li>
+          </ul>
+          <a class="link" href="https://www.spigotmc.org/resources/raxzstaff-advanced-lightweight-staff-mode-system.140191/" target="_blank" rel="noopener noreferrer">Ver en SpigotMC ↗</a>
+        </article>
+
+        <article class="card plugin reveal">
+          <span class="tag tag-mono">Spigot / Paper / Purpur 1.21+</span>
+          <h3>RaxzUpdater</h3>
+          <p>Mantiene tus plugins al día sin trabajo manual, conectado a la API de Modrinth.</p>
+          <ul>
+            <li>Escanea tus plugins y busca versiones nuevas en Modrinth</li>
+            <li>Revisión diaria a la hora que elijas y al arrancar el servidor</li>
+            <li>Reinicio automático con cuenta regresiva en el chat</li>
+            <li>Solo versiones estables por defecto, con lista de exclusión</li>
+            <li>Comando <code>/raxzupdater</code> (alias <code>/rup</code>)</li>
+          </ul>
+          <a class="link" href="https://www.spigotmc.org/resources/raxzupdater-%E2%80%93-actualiza-tus-plugins-y-reinicia-el-servidor-solo.140172/" target="_blank" rel="noopener noreferrer">Ver en SpigotMC ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section id="servicios" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">03 — Servicios</p>
+        <h2>Además de programar, dejo tu servidor listo.</h2>
+        <p>Configuración completa para que tu servidor arranque armado y listo para jugar.</p>
+      </header>
+
+      <div class="grid four">
+        <article class="card svc reveal"><b>01</b><h3>Rendimiento</h3><p>Ajuste de Spigot, Paper y Purpur para que el servidor mantenga buen TPS con jugadores conectados.</p></article>
+        <article class="card svc reveal"><b>02</b><h3>Permisos y rangos</h3><p>Estructura de staff y jugadores con los permisos correctos en cada plugin.</p></article>
+        <article class="card svc reveal"><b>03</b><h3>Plugins y modalidades</h3><p>Instalación y configuración de plugins para cada modalidad de juego de tu servidor.</p></article>
+        <article class="card svc reveal"><b>04</b><h3>Networks y datos</h3><p>Conexión de varios servidores y bases de datos con MySQL o SQLite.</p></article>
+      </div>
+    </section>
+
+    <!-- CLIENTES -->
+    <section id="clientes" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">04 — Clientes</p>
+        <h2>Trabajo para clientes.</h2>
+        <p>Servidores externos donde desarrollé sistemas y di soporte a medida.</p>
+      </header>
+
+      <div class="grid two">
+        <a class="card server reveal" href="https://github.com/Raxzwz/ametra-client" target="_blank" rel="noopener noreferrer">
+          <div class="logo" data-logo="ametra" data-initial="A"></div>
+          <h3>Ametra</h3>
+          <span class="tag">Comisión</span>
+          <p>Plugins exclusivos y optimización técnica para el proyecto.</p>
+          <small>Ver en GitHub ↗</small>
+        </a>
+
+        <article class="card plugin reveal">
+          <span class="tag tag-mono">Windows · 79 MB</span>
+          <h3>AmetraClient 1.3.0</h3>
+          <p>Instalador del cliente para Windows. Descárgalo, ábrelo y sigue los pasos para instalarlo.</p>
+          <a class="btn" href="https://github.com/Raxzwz/ametra-client/releases" target="_blank" rel="noopener noreferrer">Descargar instalador</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- STACK -->
+    <section id="stack" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">05 — Stack</p>
+        <h2>Con lo que trabajo a diario.</h2>
+        <p>Las herramientas detrás de cada plugin.</p>
+      </header>
+      <ul class="chips reveal">
+        <li>Java</li><li>Spigot API</li><li>Paper API</li><li>Purpur</li><li>MySQL</li><li>SQLite</li><li>YAML</li><li>Maven</li><li>Modrinth API</li>
+      </ul>
+    </section>
+
+    <!-- PROCESO -->
+    <section id="proceso" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">06 — Proceso</p>
+        <h2>Así trabajo un plugin. Paso a paso.</h2>
+        <p>Un recorrido de ejemplo, desde la idea hasta la entrega.</p>
+      </header>
+      <div class="steps reveal">
+        <div class="step-tabs" role="tablist" aria-label="Pasos del proceso">
+          <button role="tab" aria-selected="true" aria-controls="sp0" id="st0">01 Requisitos</button>
+          <button role="tab" aria-selected="false" aria-controls="sp1" id="st1" tabindex="-1">02 Desarrollo</button>
+          <button role="tab" aria-selected="false" aria-controls="sp2" id="st2" tabindex="-1">03 Pruebas</button>
+          <button role="tab" aria-selected="false" aria-controls="sp3" id="st3" tabindex="-1">04 Entrega</button>
+        </div>
+        <div class="step-panel" role="tabpanel" id="sp0" aria-labelledby="st0"><h3>Entender qué necesita tu servidor.</h3><p>Definimos la modalidad, la versión de Minecraft, los comandos y qué debe hacer el plugin antes de escribir una línea.</p></div>
+        <div class="step-panel" role="tabpanel" id="sp1" aria-labelledby="st1" hidden><h3>Código limpio y configurable.</h3><p>Programo en Java sobre Spigot, Paper o Purpur, con archivos YAML para que cambies mensajes y menús sin tocar el código.</p></div>
+        <div class="step-panel" role="tabpanel" id="sp2" aria-labelledby="st2" hidden><h3>Probado antes de salir.</h3><p>Se prueba en un servidor de pruebas con la versión objetivo para revisar comandos, permisos y rendimiento.</p></div>
+        <div class="step-panel" role="tabpanel" id="sp3" aria-labelledby="st3" hidden><h3>Listo para usar.</h3><p>Recibes el .jar y la configuración explicada, con ajustes posteriores acordados contigo.</p></div>
+      </div>
+    </section>
+
+    <!-- BENEFICIOS -->
+    <section id="beneficios" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">07 — Beneficios</p>
+        <h2>¿Por qué trabajar conmigo?</h2>
+        <p>Compromiso, criterio y cuidado para tu servidor.</p>
+      </header>
+      <div class="grid four">
+        <article class="card reveal"><h3>Configurable</h3><p>Mensajes, menús y opciones editables sin recompilar.</p></article>
+        <article class="card reveal"><h3>Multiversión</h3><p>Compatibilidad de 1.13 a 1.21+ según el plugin.</p></article>
+        <article class="card reveal"><h3>Ligero</h3><p>Pensado para cuidar el TPS en servidores con jugadores.</p></article>
+        <article class="card reveal"><h3>Experiencia real</h3><p>He dirigido servidores, así que entiendo lo que necesita el staff.</p></article>
+      </div>
+    </section>
+
+    <!-- RESEÑAS (se muestra solo si agregas reseñas en script.js) -->
+    <section id="resenas" class="container section" hidden>
+      <header class="sec-head reveal">
+        <p class="eyebrow">08 — Reseñas</p>
+        <h2>La confianza se gana. Ellos cuentan cómo.</h2>
+      </header>
+      <div class="grid two" id="reviews"></div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="container section">
+      <header class="sec-head reveal">
+        <p class="eyebrow">Preguntas frecuentes</p>
+        <h2>Hablemos claro.</h2>
+      </header>
+      <div class="faq reveal">
+        <details><summary>¿Qué versiones de Minecraft soportas?</summary><p>Mis plugins publicados cubren de 1.13 a 1.21+, según el plugin. Cada ficha indica su versión.</p></details>
+        <details><summary>¿Haces plugins a medida?</summary><p>Sí. Prepara una propuesta con tu modalidad y lo que necesitas, y me la compartes.</p></details>
+        <details><summary>¿El panel de la consola es real?</summary><p>Es un ejemplo ilustrativo. Mis plugins reales están enlazados en SpigotMC.</p></details>
+        <details><summary>¿Cómo te contacto?</summary><p>Por el botón de propuesta, mi perfil de SpigotMC o GitHub, en la sección de contacto.</p></details>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="container section">
+      <div class="contact reveal">
+        <p class="eyebrow">Contacto</p>
+        <h2>Tu servidor merece buen código.</h2>
+        <p>Revisa mis plugins publicados y mi trabajo en GitHub.</p>
+        <div class="cta center">
+          <a class="btn" href="https://www.spigotmc.org/resources/authors/raxzdev.2629292/" target="_blank" rel="noopener noreferrer">Mis plugins en SpigotMC ↗</a>
+          <button class="btn" id="openProp" type="button">Preparar propuesta</button>
+          <a class="btn btn-ghost" href="https://github.com/Raxzwz" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Raxzwz. Todos los derechos reservados.</span>
+    <span>No afiliado a Mojang ni a Microsoft.</span>
+    <button class="anim-toggle" id="animToggle" type="button" aria-pressed="true">Animaciones activadas</button>
+    <a href="#top">Volver arriba ↑</a>
+  </footer>
+
+  <dialog id="prop" aria-labelledby="propT">
+    <form method="dialog" id="propForm">
+      <button class="x" value="cancel" aria-label="Cerrar">×</button>
+      <p class="eyebrow">Hablemos de tu proyecto</p>
+      <h2 id="propT">Prepara tu propuesta.</h2>
+      <label>Nombre del servidor<input id="pName" required maxlength="60"></label>
+      <label>Modalidad<select id="pMode"><option>Survival</option><option>BoxPvP</option><option>SkyBlock</option><option>Prison</option><option>Network / otra</option></select></label>
+      <label>¿Qué necesitas?<textarea id="pNeed" rows="4" maxlength="600" required></textarea></label>
+      <button class="btn" type="button" id="pCopy">Copiar propuesta</button>
+      <p class="note" id="pMsg" role="status"></p>
+    </form>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
